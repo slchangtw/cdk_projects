@@ -4,7 +4,7 @@ This repository demonstrates a simple Hello World Lambda function deployed using
 
 ## Setup
 
-1. Install the Dependencies.
+1. Install the dependencies.
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
