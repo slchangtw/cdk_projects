@@ -4,19 +4,14 @@ This repository demonstrates a simple Hello World Lambda function deployed using
 
 ## Setup
 
-1. Ensure you AWS CDK environment is bootstrapped.
-```bash
-cdk bootstrap
-```
-
-2. Install the Dependencies.
+1. Install the Dependencies.
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Deploy the stack to test or production environment.
+2. Deploy the stack to test or production environment.
 ```bash
 cdk deploy
 cdk deploy -c env=prod
